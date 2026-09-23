@@ -136,4 +136,73 @@ Write a Python program to compute the **factorial of a given number**.
 ```
 
 **Output:**
-``
+
+```
+40320
+```
+
+---
+
+### 🔹 Code
+
+```python
+num = int(input("Enter a number:"))
+
+factorial = 1
+
+for i in range(1, num + 1):
+    factorial *= i
+
+print(factorial)
+```
+
+---
+
+### 🔹 Explanation Table
+
+| Step | Calculation | Result |
+| ---- | ----------- | ------ |
+| 1    | 1 × 1       | 1      |
+| 2    | 1 × 2       | 2      |
+| 3    | 2 × 3       | 6      |
+| ...  | ...         | ...    |
+| 8    | 5040 × 8    | 40320  |
+
+---
+
+## 🧠 Key Concepts Used
+
+* `input()` → taking user input
+* `split()` → splitting string into list
+* `int(x, 2)` → binary to decimal conversion
+* `append()` → adding elements to list
+* `isalpha()` → check letters
+* `isdigit()` → check digits
+* `for` loop → iteration
+* `%` → modulus (remainder)
+
+---
+
+## 🚀 How to Run
+
+1. Install Python
+2. Copy the code into a `.py` file
+3. Run using:
+
+```
+python filename.py
+```
+
+---
+
+## 🎯 Summary
+
+| Program                | Concept                |
+| ---------------------- | ---------------------- |
+| Binary Divisible by 5  | Conversion + Condition |
+| Count Letters & Digits | String Processing      |
+| Factorial              | Loop + Multiplication  |
+
+---
+
+✨ These programs are useful for beginners to understand **loops, conditions, and string handling in Python**.
